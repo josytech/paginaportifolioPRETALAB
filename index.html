@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="img/foto-perfil.png">
+        <title>Meu Portfólio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    </head>
+    
+    <body>
+       <!-- O Header faz parte da semântica, de criar a "cabeçalho" do site -->
+        <header class="header-menu">
+             <!-- O Nav é a barra de navegação do site, quando entrarmos no CSS, tudo fará sentido -->
+            <nav>
+                 <!-- O Ul e o OL são as listas -->
+                <ul class="lista-menu">
+                    <li>
+                        <a href="#formacao">Formação</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- O Main faz parte da semântica, de criar o "corpo" do site -->
+
+        <main>
+            <!-- O Section faz parte da semântica, de criar e separar as sessões do nosso site -->
+            <section class="principal">
+                <!-- O article quer dizer que estamos criando um trecho do nosso site, que é independente de outros trechos/partes do nosso site -->
+                <article class="subcontainer-principal container">
+                    <div>
+                        <img src="img/foto-perfil.png">
+                    </div>
+                    <div>
+                        <h1 class="nome-completo">Joseane Vieira</h1>
+                        <h2 class="profissao">Desenvolvedora Front-end</h2>
+                    </div>
+                    <div>
+                        Estudante de tecnologia em sistemas da computação e desenvolvimento Front-end.
+                    </div>
+                </article>
+            </section>
+
+            <section>
+                    <article id="formacao" class="container article-lista">
+                        <div>
+                            <h3 class="topico-principal">Formação</h3>
+                        </div>
+                        <div class="lista-item">
+                            <ul>
+                                <li>
+                                    <p class="lista-titulo">Ciclo formativo Pretalab</p>
+                                    <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
+                                    <p class="lista-descricao">aulas de desenvolvimento Front-end, HTML CSS E JAVASCRIPT.</p>
+                                </li>
+                                <li>
+                                    <p class="lista-titulo">Ciclo formativo</p>
+                                    <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Colégio Ensino</a>
+                                    <p class="lista-descricao">Formação de futuras programadoras.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+            </section>
+
+            <section class="wrapper-portfolio">
+                <article id="portfolio" class="container article-lista">
+                    <div>
+                        <h3 class="topico-principal">Blog</h3>
+                    </div>
+                    <div class="lista-item">
+                        <ul>
+                            <li>
+                                <p class="lista-titulo">Mulheres que fazem história</p>
+                                <p class="subtitulo-lista">Revelo</p>
+                                <a href="https://community.revelo.io/27-desenvolvedoras-brasileiras-para-se-inspirar-em-2022/" target="_blank" class="lista-local"> 27 desenvolvedoras brasileiras para se inspirar em 2022</a>
+                                <p class="lista-descricao">Felizmente, mais e mais mulheres têm crescido profissionalmente no ecossistema de desenvolvimento de software do Brasil. Muitas delas merecem destaque, contudo, pelo trabalho que desenvolvem na formação de outras mulheres desenvolvedoras para fazer parte desse ecossistema que, como sabemos, (ainda) é eminentemente masculino..</p>
+                            </li>
+                            <li>
+                                <p class="lista-titulo">Quem Coda BR</p>
+                                <p class="subtitulo-lista">Pretalab</p>
+                                <a href="https://www.pretalab.com/report-quem-coda" target="_blank" class="lista-local">Quem coda br</a>
+                                <p class="lista-descricao">Aberta à formação autodidata e com necessidades de entender os desaﬁos plurais de uma população tão diversa quanto a brasileira, a indústria da tecnologia pode alavancar negócios ao abrir seu mercado para as mulheres negras. .</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </main>
+          <!-- O Footer faz parte da semântica, de criar o rodapé do site -->
+          <footer class="footer" id="contato">
+            <div class="container">
+                <ul class="lista-footer">
+                    <li><i class="fas fa-envelope-square estilo-icon"></i><a href="mailto:josenevr22@gmail.com" target="_blank"class="links">joseanevr22@gmail.com</a></li>
+                    <li><i class="fab fa-linkedin estilo-icon"></i><a href="https://www.linkedin.com/in/joseanevieirarodrigues/" target="_blank" class="links">joseane vieira rodrigues</a></li>
+                    <li><i class="fab fa-github-square estilo-icon"></i><a href="https://github.com/josytech" target="_blank" class="links">josytech</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+    
+    </html>
